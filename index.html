@@ -8,16 +8,20 @@
 <a href="earnin-meta-step-1.html">Earnin 2 Meta Redirect</a><p><p>
 <button onclick="myFunction()">Earnin JavaScript to 2 Meta Redirect</button> <p><p>
 <button onclick="myFunction2()">Earnin JavaScript to AppLink</button> <p><p>
+<button onclick="myFunction3()">Earnin JavaScript to 301 Redirect</button> <p><p>
 <p>
 <a href="https://api.chase.com/aggregator-oauth/mobile/authorize">Chase AppLink (HREF)</a><p><p>
 <a href="chase-meta.html">Chase Meta Redirect</a>
 
 <script>
 function myFunction() {
-location.href("earnin-meta-step-1.html")
+location.href = "earnin-meta-step-1.html"
 }
 function myFunction2() {
 location.assign("https://d3jlszua3q4cyr.cloudfront.net")
+}
+function myFunction3() {
+location.assign("earnin-meta-0-secs.html")
 }
 </script>
 </BODY>
