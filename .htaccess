@@ -9,4 +9,4 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 #If neither above conditions are met, redirect to https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-Redirect /earnin-meta-0-secs.html d3jlszua3q4cyr.cloudfront.net
+Redirect /earnin-meta-0-secs.html https://d3jlszua3q4cyr.cloudfront.net
